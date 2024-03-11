@@ -679,6 +679,7 @@ color: #404bbf;
 }
 
 .modal-form-div {
+    position: relative;
     margin-bottom: 8px;
 }
 
@@ -748,5 +749,5 @@ color: #404bbf;
 }
 
 .modal-form-checkbox-input {
-    
+
 }
