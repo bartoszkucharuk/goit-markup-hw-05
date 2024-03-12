@@ -609,7 +609,7 @@ color: #404bbf;
 
 .footer-btn-icon {
     margin-left: 16px;
-    fill: #000000;
+    fill: rgba(255, 255, 255, 1);
 }
 
 /* MODAL AREA */
