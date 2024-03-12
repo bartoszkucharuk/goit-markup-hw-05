@@ -656,7 +656,7 @@ color: #404bbf;
 }
 
 .modal-btn-close:hover,
-.modal-btn:focus {
+.modal-btn-close:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
