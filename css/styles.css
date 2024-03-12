@@ -751,6 +751,10 @@ color: #404bbf;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-textarea-field:focus {
+    border-color: #4D5AE5;
+}
+
 .modal-form-checkbox {
     margin-bottom: 24px;
 }
