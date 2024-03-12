@@ -57,6 +57,19 @@ button:focus {
     background-color: #404bbf;
     cursor: pointer;
 }
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
 
 .container {
     align-items: center;
@@ -254,18 +267,6 @@ button:focus {
 }
 
 .features-header {
-    /* wzorzec .VISUALLY-HIDDEN */
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .features-list {
@@ -781,12 +782,12 @@ color: #404bbf;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-privacy-icon {
-}
-
 .modal-form-checkbox-input:checked .user-privacy-span {
     border: none;
     background-color: #404bbf;
     fill: #F4F4FD;
+}
 
+.privacy-policy-link {
+    color: #4d5ae5;
 }
