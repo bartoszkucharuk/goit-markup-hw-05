@@ -760,7 +760,6 @@ color: #404bbf;
 .modal-form-checkbox {
     margin-bottom: 24px;
 }
-/* SPAN PROBLEM */
 
 .terms-label {
     font-size: 12px;
@@ -781,7 +780,9 @@ color: #404bbf;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-checkbox-input:checked + .user-privacy-span {
+/* SPAN PROBLEM */
+
+.modal-form-checkbox-input:checked + .terms-label .user-privacy-span {
     border: none;
     background-color: #404bbf;
     fill: #F4F4FD;
