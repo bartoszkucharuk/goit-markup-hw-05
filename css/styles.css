@@ -729,10 +729,7 @@ color: #404bbf;
     fill: #2e2f42;
 }
 
-
-
-
-.modal-form-input:focus .modal-input-icon {
+.modal-form-input:focus + .modal-input-icon {
     fill: #4D5AE5;
 }
 
