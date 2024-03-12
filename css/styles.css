@@ -640,7 +640,7 @@ color: #404bbf;
 
 }
 
-.modal-btn {
+.modal-btn-close {
     position: absolute;
     display: flex;
     align-items: center;
@@ -664,7 +664,7 @@ color: #404bbf;
     fill: #ffffff;
 }
 
-.modal-btn-icon {
+.modal-btn-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
