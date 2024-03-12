@@ -450,7 +450,7 @@
                 <div class="modal-form-div">
                     <label class="modal-form-label" for="user-name">Name</label>
                     <div class="modal-form-label-field">
-                        <input class="modal-form-input" type="text" name="user-name" id="user-name"/>
+                        <input class="modal-form-input" type="text" name="user-name" id="user-name" required/>
                         <svg class="modal-input-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
@@ -460,7 +460,7 @@
                 <div class="modal-form-div">
                     <label class="modal-form-label" for="user-name">Phone</label>
                     <div class="modal-form-label-field">
-                        <input class="modal-form-input" type="text" name="user-name" id="user-name" />
+                        <input class="modal-form-input" type="text" name="user-name" id="user-name" required />
                         <svg class="modal-input-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
@@ -470,7 +470,7 @@
                 <div class="modal-form-div">
                     <label class="modal-form-label" for="user-name">Email</label>
                     <div class="modal-form-label-field">
-                        <input class="modal-form-input" type="text" name="user-name" id="user-name" />
+                        <input class="modal-form-input" type="text" name="user-name" id="user-name" required/>
                         <svg class="modal-input-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-mail"></use>
                         </svg>
@@ -485,19 +485,20 @@
                 </div>
 
                 <div class="modal-form-checkbox">
-                    <input class="modal-form-checkbox-input visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy"/>
+                    <input class="modal-form-checkbox-input visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy" required/>
                 
-                    <label class="terms-label" for="user-privacy">I accept the terms and conditions of the
+                    <label class="terms-label" for="user-privacy">
                         <span class="user-privacy-span">
-                            <svg class="user-privacy-icon" width="10" height="8">
+                        <svg class="user-privacy-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-checked"></use>
                             </svg>
                         </span>
+                        I accept the terms and conditions of the
                         <a class="privacy-policy-link" href="#">Privacy Policy</a>
                     </label> 
                 </div>
 
-                <button class="privacy-policy-btn">Send</button>
+                <button class="privacy-policy-btn" type="submit">Send</button>
 
             </form>
 
