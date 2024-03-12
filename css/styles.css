@@ -614,7 +614,7 @@ color: #404bbf;
 
 /* MODAL AREA */
 
-.modal-area {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
