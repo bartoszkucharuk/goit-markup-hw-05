@@ -760,8 +760,12 @@ color: #404bbf;
 .modal-form-checkbox {
     margin-bottom: 24px;
 }
+/* SPAN PROBLEM */
 
-.modal-form-checkbox-input {
+.modal-form-checkbox-input:checked + .user-privacy-span {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
 
 .terms-label {
